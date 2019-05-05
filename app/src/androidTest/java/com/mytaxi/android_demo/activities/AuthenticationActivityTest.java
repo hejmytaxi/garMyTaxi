@@ -39,7 +39,7 @@ public class AuthenticationActivityTest {
     }
 
     @Test
-    public void loginSuccess() {
+    public void authenticationSuccess() {
         onView(withId(R.id.edt_username)).perform(typeText("crazydog335"));
         onView(withId(R.id.edt_password)).perform(typeText("venture"));
         onView(withId(R.id.btn_login)).perform(click());
