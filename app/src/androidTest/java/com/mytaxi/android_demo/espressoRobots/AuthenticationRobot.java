@@ -14,7 +14,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.core.AllOf.allOf;
 
-public class AuthenticationRobot {
+public class AuthenticationRobot extends BaseTestRobot {
 
     private static final int LOGIN_USERNAME = R.id.edt_username;
     private static final int LOGIN_PASSWORD = R.id.edt_password;
